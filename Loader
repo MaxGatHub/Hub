@@ -1,0 +1,749 @@
+nouni=false
+local function lo(l)
+loadstring(game:HttpGet(l,true))()
+nouni=true
+end
+
+if game.PlaceId==7081641016 then --Bank Robbery Simulator
+lo("https://pastebin.com/raw/mF2RvMNB")
+end
+
+if game.PlaceId==6944686471 then --Pop It Simulator
+lo("https://pastebin.com/raw/WRFxSHNh")
+end
+
+if game.PlaceId==7065731541 then --Speedman Simulator
+lo("https://raw.githubusercontent.com/Maxgat5/Speedman-Simulator/main/lua")
+end
+
+if game.PlaceId==5326405001 then --Red vs Blue!
+lo("https://pastebin.com/raw/TMfeJVYn")
+end
+
+if game.PlaceId==6904735821 then --Shoe Simulator
+lo("https://pastebin.com/raw/kZHUzddd")
+end
+
+if game.PlaceId==6284583030 then --Pet Simulator X
+lo("https://pastebin.com/raw/hvFVkuaK")
+end
+
+if game.PlaceId==7065740833 then --Fidget World
+lo("https://pastebin.com/raw/FYKFAy6j")
+end
+
+if game.PlaceId==6339160453 then --Naruto War Tycoon
+lo("https://pastebin.com/raw/gxkFWVDn")
+end
+
+if game.PlaceId==6984315364 then --Naruto War Tycoon
+lo("https://pastebin.com/raw/eDeitFGD")
+end
+
+if game.PlaceId==5865858426 then --Retail Tycoon 2
+lo("https://pastebin.com/raw/PJ79AYsr")
+end
+
+if game.PlaceId==6858184059 then --Space Base Tycoon
+lo("https://pastebin.com/raw/zJePL7mz")
+end
+
+if game.PlaceId==2130061659 then --Eat And Destroy!
+lo("https://pastebin.com/raw/Bh0x2HNJ")
+end
+
+if game.PlaceId==6760562118 then --Loot Lake Simulator
+lo("https://pastebin.com/raw/SkyHwSQg")
+end
+
+if game.PlaceId==7009799230 then --Power Wash Simulator
+lo("https://pastebin.com/raw/6q8tg0ST")
+end
+
+if game.PlaceId==7102729322 then --Shaking Tapping
+lo("https://pastebin.com/raw/ZGxtahfe")
+end
+
+if game.PlaceId==6562582816 then --Crypto Tycoon
+lo("https://pastebin.com/raw/3RZ4sCaF")
+end
+
+if game.PlaceId==3137426313 then --Tap Farm Tycoon!
+lo("https://pastebin.com/raw/HXtkFx7R")
+end
+
+if game.PlaceId==6848886250 then --Pop it Fidget Simulator
+lo("https://pastebin.com/raw/KRDe24YM")
+end
+
+if game.PlaceId==4855457388 then --Demonfall
+lo("https://pastebin.com/raw/5s2q2nXq")
+end
+
+if game.PlaceId==6698203444 then --Brick Magnet Simulator
+lo("https://pastebin.com/raw/ui6f87sd")
+end
+
+if game.PlaceId==6196669580 then --Monster Quest
+lo("https://pastebin.com/raw/bXyNpK39")
+end
+
+if game.PlaceId==4822852675 then --Typing Simulator
+lo("https://pastebin.com/raw/6222LbBj")
+end
+
+if game.PlaceId==6997540091 then --Flower Magnet Simulator
+lo("https://pastebin.com/raw/yMt8jSgY")
+end
+
+if game.PlaceId==6956800910 then --Business Manager Simulator
+lo("https://pastebin.com/raw/0gE77Nya")
+end
+
+if game.PlaceId==4670822595 then --Secret Hatching Simulator 2
+lo("https://pastebin.com/raw/EJwQAGTG")
+end
+
+if game.PlaceId==6723827949 then --Saber Master X
+lo("https://pastebin.com/raw/m1JZPUCp")
+end
+
+if game.PlaceId==6904320123 then --Harvest Simulator
+lo("https://pastebin.com/raw/ZMB2pXE0")
+end
+
+if game.PlaceId==6915291292 then --Bakery Simulator
+lo("https://pastebin.com/raw/Sruihutg")
+end
+
+if game.PlaceId==6676587884 then --My Chicken Farm! [BETA]
+lo("https://pastebin.com/raw/ijGjDjbR")
+end
+
+if game.PlaceId==6836091266 then --Birdkeepers
+lo("https://pastebin.com/raw/eVTc0iWc")
+end
+
+if game.PlaceId==6774188812 then --Mini Metro
+lo("https://pastebin.com/raw/KCBGEDUe")
+end
+
+if game.PlaceId==6412367780 then --Celebrity Simulator
+lo("https://pastebin.com/raw/NPEnhvXK")
+end
+
+if game.PlaceId==6501876313 then --Coconut Simulator
+lo("https://pastebin.com/raw/1ew0mRfZ")
+end
+
+if game.PlaceId==6859865958 then --YouTube Simulator
+lo("https://pastebin.com/raw/YDjNHdCu")
+end
+
+if game.PlaceId==6766156863 then --Strongman Simulator
+lo("https://pastebin.com/raw/SXDriN7Y")
+end
+
+if game.PlaceId==6156903749 then --Clicker Lords
+lo("https://pastebin.com/raw/wMSviRg3")
+end
+
+if game.PlaceId==6888253864 then --Wacky Wizards
+lo("https://pastebin.com/raw/QAW7c3pK")
+end
+
+if game.PlaceId==6285815281 then --Wacky Wizards
+lo("https://pastebin.com/raw/3BKi929D")
+end
+
+if game.PlaceId==6897226634 then --Timber
+lo("https://pastebin.com/raw/jx36EJVs")
+end
+
+if game.PlaceId==6788787407 then --Warrior Champions
+lo("https://pastebin.com/raw/n8W6UGzx")
+end
+
+if game.PlaceId==6299805723 then --Anime Fighters Simulator
+lo("https://pastebin.com/raw/KBx8RCjR")
+end
+
+if game.PlaceId==6075756195 then --Clicking Havoc
+lo("https://pastebin.com/raw/Mxcev6JT")
+end
+
+if game.PlaceId==4846954296 then --Toy Clicking Simulator
+lo("https://pastebin.com/raw/4QA8FL33")
+end
+
+if game.PlaceId==6892252562 then --Grow Old Simulator
+lo("https://pastebin.com/raw/Sas4Li3h")
+end
+
+if game.PlaceId==6090535886 then --Blade Masters
+lo("https://pastebin.com/raw/Y6ZBAspG")
+end
+
+if game.PlaceId==6659645288 then --Gold Rush
+lo("https://pastebin.com/raw/kJnPcB8Q")
+end
+
+if game.PlaceId==6645344332 then --Egg Collecting Simulator
+lo("https://pastebin.com/raw/ZeZDzYpt")
+end
+
+if game.PlaceId==6344605115 then --Banana Simulator
+lo("https://pastebin.com/raw/b27awJaS")
+end
+
+if game.PlaceId==6872265039 then --BedWars
+lo("https://pastebin.com/raw/uFa7eU2g")
+end
+
+if game.PlaceId==6702759820 then --Mystery Clickers
+lo("https://pastebin.com/raw/xyWTfEYz")
+end
+
+if game.PlaceId==3271441918 then --Hero Simulator
+lo("https://pastebin.com/raw/9NfFhEmH")
+end
+
+if game.PlaceId==6245984328 then --NERF Strike
+lo("https://pastebin.com/raw/pb2MXyjL")
+end
+
+if game.PlaceId==6672200623 then --Bat Simulator
+lo("https://pastebin.com/raw/tUXrfuH7")
+end
+
+if game.PlaceId==6647511053 then --Coin Collecting Simulator
+lo("https://pastebin.com/raw/cJKEaSZY")
+end
+
+if game.PlaceId==6028934209 then --Soda Champions
+lo("https://pastebin.com/raw/xN9VyD1P")
+end
+
+if game.PlaceId==6422237656 then --My Toy Factory
+lo("https://pastebin.com/raw/uZttcCu4")
+end
+
+if game.PlaceId==6234390472 then --Cooking in the Rain
+lo("https://pastebin.com/raw/8ePTV882")
+end
+
+if game.PlaceId==6459707978 then --Delivery Simulator
+lo("https://pastebin.com/raw/3tnSQ6Jd")
+end
+
+if game.PlaceId==6381681200 then --My Fish Store Tycoon
+lo("https://pastebin.com/raw/4XhzfFJX")
+end
+
+if game.PlaceId==6419299687 then --Crash Simulator
+lo("https://pastebin.com/raw/L74fYAW3")
+end
+
+if game.PlaceId==5991118999 then --Cut The Grass
+lo("https://pastebin.com/raw/u1GJEx5S")
+end
+
+if game.PlaceId==6812577005 then --Gold Factory Simulator
+lo("https://pastebin.com/raw/8RJHS1um")
+end
+
+if game.PlaceId==5598577415 then --Frog Simulator 
+lo("https://pastebin.com/raw/khg4pmuY")
+end
+
+if game.PlaceId==6689894296 then --Brawl Legends
+lo("https://pastebin.com/raw/cuQum0C0")
+end
+
+if game.PlaceId==6759841279 then --Breaking Simulator
+lo("https://pastebin.com/raw/skqp97Jj")
+end
+
+if game.PlaceId==5254674128 then --Pet Store Tycoon
+lo("https://pastebin.com/raw/AvhK3xp9")
+end
+
+if game.PlaceId==6542731310 then --Dogecoin Mining Tycoon
+lo("https://pastebin.com/raw/1Ja6hbmP")
+end
+
+if game.PlaceId==4793451617 then --Planet Mining Simulator
+lo("https://pastebin.com/raw/uYHCYAJH")
+end
+
+if game.PlaceId==5930941618 then --My Salon 
+lo("https://pastebin.com/raw/S8QK0Yub")
+end
+
+if game.PlaceId==4651779470 then --RECOIL | BETA
+lo("https://pastebin.com/raw/L9raJhb7")
+end
+
+if game.PlaceId==6704182071 then --Cooking Simulator
+lo("https://pastebin.com/raw/QDR8VZmL")
+end
+
+if game.PlaceId==6544175281 then --Food Magnet Simulator
+lo("https://pastebin.com/raw/9rTv7YKQ")
+end
+
+if game.PlaceId==5733777811 then --Lockpicking Simulator
+lo("https://pastebin.com/raw/v6Fe0aqK")
+end
+
+if game.PlaceId==6440133276 then --Shampoo Simulator
+lo("https://pastebin.com/raw/czq1Ygst")
+end
+
+if game.PlaceId==2616498302 then --Slaying Simulator
+lo("https://pastebin.com/raw/WjndAgHV")
+end
+
+if game.PlaceId==6011691652 then --Magnet Legends 
+lo("https://pastebin.com/raw/HyeWL41A")
+end
+
+if game.PlaceId==6544862292 then --Ultimate Speed Simulator!
+lo("https://pastebin.com/raw/HYe5dTFC")
+end
+
+if game.PlaceId==920587237 then --Adopt Me!
+lo("https://pastebin.com/raw/5zuA12kg")
+end
+
+if game.PlaceId==6325190458 then --Reaper Legends
+lo("https://pastebin.com/raw/LmgTYFSw")
+end
+
+if game.PlaceId==6612749452 then --Miners World [Alpha]
+lo("https://pastebin.com/raw/jUcLpdmh")
+end
+
+if game.PlaceId==6259813829 then --Wizard Masters
+lo("https://pastebin.com/raw/q7zprLb8")
+end
+
+if game.PlaceId==5346447287 then --Tapping Gods
+lo("https://pastebin.com/raw/PQ6LtfDh")
+end
+
+if game.PlaceId==4543144283 then --Mega Noob Simulator
+lo("https://pastebin.com/raw/pR2VWSvF")
+end
+
+if game.PlaceId==5914688238 then --My Farm!
+lo("https://pastebin.com/raw/p2yVQHhp")
+end
+
+if game.PlaceId==4505230637 then --Melee Simulator 
+lo("https://pastebin.com/raw/MZFkRsxh")
+end
+
+if game.PlaceId==4952780297 then --Combat Rift
+lo("https://pastebin.com/raw/HDznidKJ")
+end
+
+if game.PlaceId==6233747376 then --Mining Frenzy 
+lo("https://pastebin.com/raw/H7zs3m2v")
+end
+
+if game.PlaceId==6495194916 then --Dinosaur City
+lo("https://pastebin.com/raw/tQD5rPfG")
+end
+
+if game.PlaceId==6531005851 then --Lifting Titans
+lo("https://pastebin.com/raw/pRVX9c7F")
+end
+
+if game.PlaceId==5398368730 then --ragdoll street fight simulator
+lo("https://pastebin.com/raw/GsNvLp7k")
+end
+
+if game.PlaceId==6598746935 then --Farm for Fun!
+lo("https://pastebin.com/raw/wwSiuJ83")
+end
+
+if game.PlaceId==6450443739 then --Trident Simulator
+lo("https://pastebin.com/raw/a79FdsG9")
+end
+
+if game.PlaceId==5846394321 then --Vortex Simulator!
+lo("https://pastebin.com/raw/Kug7duKV")
+end
+
+if game.PlaceId==6246700719 then --Elemental Legends
+lo("https://pastebin.com/raw/yuiUphtb")
+end
+
+if game.PlaceId==5361888255 then --Clicking Dimensions
+lo("https://pastebin.com/raw/854c9SJp")
+end
+
+if game.PlaceId==6093650231 then --Potion Legends
+lo("https://pastebin.com/raw/gW6pX6n5")
+end
+
+if game.PlaceId==2980539589 then --Drinking Simulator
+lo("https://pastebin.com/raw/T9FwVqxp")
+end
+
+if game.PlaceId==6396346853 then --Saber Legends
+lo("https://pastebin.com/raw/fMUB4zhS")
+end
+
+if game.PlaceId==6042043124 then --Katana Legends 
+lo("https://pastebin.com/raw/4fSmGW5C")
+end
+
+if game.PlaceId==6015727643 then --My Store
+lo("https://pastebin.com/raw/EtKyUw0B")
+end
+
+if game.PlaceId==6448181994 then --Food Simulator 2
+lo("https://pastebin.com/raw/pPKwDz96")
+end
+
+if game.PlaceId==5179231323 then --Special Ops Simulator
+lo("https://pastebin.com/raw/7SmS0igj")
+end
+
+if game.PlaceId==6425918578 then --Ore Magnet Simulator
+lo("https://pastebin.com/raw/CkYpsXkN")
+end
+
+if game.PlaceId==6462020286 then --Coin Masters Simulator
+lo("https://pastebin.com/raw/iaYCj5uM")
+end
+
+if game.PlaceId==5569431582 then --Little World
+lo("https://pastebin.com/raw/AntPem7Y")
+end
+
+if game.PlaceId==221718525 then --Ninja Tycoon 
+lo("https://pastebin.com/raw/CLsXLfx1")
+end
+
+if game.PlaceId==6113799723 then --Hatching Masters
+lo("https://pastebin.com/raw/uhuYdhvZ")
+end
+
+if game.PlaceId==3804735158 then --Princess Tycoon
+lo("https://pastebin.com/raw/WJ6hHzg4")
+end
+
+if game.PlaceId==2753915549 then --Blox Fruits
+lo("https://pastebin.com/raw/NyUCZYAk")
+end
+
+if game.PlaceId==5817229607 then --Soda Legends
+lo("https://pastebin.com/raw/3nXT6vpf")
+end
+
+if game.PlaceId==4545436299 then --Pet Clicks Simulator
+lo("https://pastebin.com/raw/me0pEgSe")
+end
+
+if game.PlaceId==6515229981 then --Stomping Simulator
+lo("https://pastebin.com/raw/ypi5HYpX")
+end
+
+if game.PlaceId==5310443220 then --GOD TYCOON
+lo("https://pastebin.com/raw/fDtUyMqE")
+end
+
+if game.PlaceId==6269587624 then --Egg Hatching Simulator
+lo("https://pastebin.com/raw/CeFTZpXQ")
+end
+
+if game.PlaceId==6266368276 then --Ultra Hatching Legends!
+lo("https://pastebin.com/raw/tEJvCjkM")
+end
+
+if game.PlaceId==6485529694 then --Bee Sim
+lo("https://pastebin.com/raw/aVL2E6BD")
+end
+
+if game.PlaceId==5827607322 then --Mega Tap Simulator
+lo("https://pastebin.com/raw/UY11EvrT")
+end
+
+if game.PlaceId==5391307643 then --Mansion Tycoon
+lo("https://pastebin.com/raw/iT5vwucr")
+end
+
+if game.PlaceId==413424176 then --Clone Tycoon 2
+lo("https://pastebin.com/raw/Uq0fpS4e")
+end
+
+if game.PlaceId==3623096087 then --Muscle Legends
+lo("https://pastebin.com/raw/js7DdzgV")
+end
+
+if game.PlaceId==6129557066 then --UFO Tycoon
+lo("https://pastebin.com/raw/2U6MXNG9")
+end
+
+if game.PlaceId==5736409216 then --Mall Tycoon
+lo("https://pastebin.com/raw/ns6Ak7E0")
+end
+
+if game.PlaceId==6031005058 then --Waterpark Tycoon
+lo("https://pastebin.com/raw/QPcmiBHP")
+end
+
+if game.PlaceId==5714256147 then --Zombie Simulator
+lo("https://pastebin.com/raw/hFjaW4U2")
+end
+
+if game.PlaceId==5351136799 then --Coffee Simulator
+lo("https://pastebin.com/raw/RWPx7WqS")
+end
+
+if game.PlaceId==6273865312 then --Supernatural Simulator
+lo("https://pastebin.com/raw/svEXQ2hA")
+end
+
+if game.PlaceId==6382110870 then --candy simulator
+lo("https://pastebin.com/raw/xBbzNcTb")
+end
+
+if game.PlaceId==5943856429 then --Knight Heroes
+lo("https://pastebin.com/raw/hH5KX0Be")
+end
+
+if game.PlaceId==4829801321 then --Mine Inc.
+lo("https://pastebin.com/raw/kPXgwWCK")
+end
+
+if game.PlaceId==5680601511 then --Paper Plane Simulator
+lo("https://pastebin.com/raw/Hwf0e6k3")
+end
+
+if game.PlaceId==5959521677 then --Brain Simulator
+lo("https://pastebin.com/raw/tMr5Egq8")
+end
+
+if game.PlaceId==6256903862 then --Thunder Clickers!
+lo("https://pastebin.com/raw/iZPABwgT")
+end
+
+if game.PlaceId==6268169721 then --Simbachka Toy Simulator
+lo("https://pastebin.com/raw/c4DnkKgh")
+end
+
+if game.PlaceId==5469918067 then --Hug People Simulator
+lo("https://pastebin.com/raw/zQwjN9BT")
+end
+
+if game.PlaceId==5291924966 then --Tapping Legends
+lo("https://pastebin.com/raw/SFsSFHCm")
+end
+
+if game.PlaceId==4956876523 then --Blending Simulator
+lo("https://pastebin.com/raw/1dibc5Hk")
+end
+
+if game.PlaceId==6048603509 then --Blademaster Simulator
+lo("https://pastebin.com/raw/szTpbrk6")
+end
+
+if game.PlaceId==301549746 then --Counter Blox
+lo("https://pastebin.com/raw/5fcP8kz2")
+end
+
+if game.PlaceId==5024229518 then --Trading Simulator
+lo("https://pastebin.com/raw/3gFEv6bk")
+end
+
+if game.PlaceId==6386685963 then --Dishwashing Simulator!
+lo("https://pastebin.com/raw/jNrXk1WZ")
+end
+
+if game.PlaceId==5098853310 then --Gem Collecting Simulator
+lo("https://pastebin.com/raw/gDvG59eW")
+end
+
+if game.PlaceId==6244064253 then --Hatching Mania
+lo("https://pastebin.com/raw/5UaurZt1")
+end
+
+if game.PlaceId==3101667897 then --Legends Of Speed
+lo("https://pastebin.com/raw/dPHh4sCh")
+end
+
+if game.PlaceId==5967519266 then --Tapping Inc
+lo("https://pastebin.com/raw/0v3z3ZqZ")
+end
+
+if game.PlaceId==4952088293 then --Ultimate Speed Simulator
+lo("https://pastebin.com/raw/tsnbigcj")
+end
+
+if game.PlaceId==6265694953 then --Pan Simulator
+lo("https://pastebin.com/raw/5G0un4Yv")
+end
+
+if game.PlaceId==5840952016 then --Tapping Legacy
+lo("https://pastebin.com/raw/488Cu7c9")
+end
+
+if game.PlaceId==5693988704 then --Selfie Simulator
+lo("https://pastebin.com/raw/7q64dCpL")
+end
+
+if game.PlaceId==6096977981 then --Tapping Craze
+lo("https://pastebin.com/raw/J7XbqSHu")
+end
+
+if game.PlaceId==2845217850 then --Hat Simulator
+lo("https://pastebin.com/raw/WsVeXbXN")
+end
+
+if game.PlaceId==5915988568 then --Bonking Simulator!
+lo("https://pastebin.com/raw/ZDciqSJr")
+end
+
+if game.PlaceId==4131423478 then --Tree Planting Simulator
+lo("https://pastebin.com/raw/70mwxBm4")
+end
+
+if game.PlaceId==6422697966 then --Happy Simulator
+lo("https://pastebin.com/raw/dsbNgpKy")
+end
+
+if game.PlaceId==5784984978 then --Milk Simulator [BETA]
+lo("https://pastebin.com/raw/f3Qvv6xb")
+end
+
+if game.PlaceId==6422624427 then --Samurai Legends
+lo("https://pastebin.com/raw/fNhwLCtX")
+end
+
+if game.PlaceId==5490351219 then --Clicker Madness
+lo("https://pastebin.com/raw/ggtb0wGG")
+end
+
+if game.PlaceId==3556899975 then --Noob Simulator 2
+lo("https://pastebin.com/raw/xGaJf7gt")
+end
+
+if game.PlaceId==6090639744 then --Bacon Simulator
+lo("https://pastebin.com/raw/TLMQXpmx")
+end
+
+if game.PlaceId==5535087806 then --Tapping Mania
+lo("https://pastebin.com/raw/uKj1xNUn")
+end
+
+if game.PlaceId==6280522952 then --Pet Clicks Simulator
+lo("https://pastebin.com/raw/txn54LRj")
+end
+
+if game.PlaceId==5932564241 then --Adventurer Simulator
+lo("https://pastebin.com/raw/mytW4Ynj")
+end
+
+if game.PlaceId==4572547530 then --Sizzling Simulator 
+lo("https://pastebin.com/raw/BMiqAZ1N")
+end
+
+if game.PlaceId==5660006516 then --Superhero Simulator
+lo("https://pastebin.com/raw/N7MX3Wzt")
+end
+
+if game.PlaceId==4961974633 then --Ramen Simulator
+lo("https://pastebin.com/raw/81H7SPtM")
+end
+
+if game.PlaceId==2616498302 then --Slaying Simulator
+lo("https://pastebin.com/raw/02xGqXTR")
+end
+
+if game.PlaceId==5293755937 then --Speed Run Simulator
+lo("https://pastebin.com/raw/UQvYmQTe")
+end
+
+if game.PlaceId==3486025575 then --Magnet Simulator
+lo("https://pastebin.com/raw/cSjPAm5z")
+end
+
+if game.PlaceId==3652625463 then --Lifting Simulator
+lo("https://pastebin.com/raw/Udt8sqcQ")
+end
+
+if game.PlaceId==3823781113 then --Saber Simulator
+lo("https://pastebin.com/raw/G9Kt6Gav")
+end
+
+if game.PlaceId==4742587533 then --Cookie Simulator
+lo("https://pastebin.com/raw/W9iG6UmH")
+end
+
+if game.PlaceId==6145747587 then --Sleeping Simulator
+lo("https://pastebin.com/raw/95CWKb88")
+end
+
+if game.PlaceId==4876960127 then --Food Simulator
+lo("https://pastebin.com/raw/8vZmEAm0")
+end
+
+if game.PlaceId==1240426880 then --Home Tycoon 2.0
+lo("https://pastebin.com/raw/3iEvyac6")
+end
+
+if game.PlaceId==5551657553 then --Business Legends
+lo("https://pastebin.com/raw/qVaUkif7")
+end
+
+if game.PlaceId==6186926816 then --Tapping Kingdom
+lo("https://pastebin.com/raw/kbjzfiL6")
+end
+
+if game.PlaceId==6305942109 then --Laundry Simulator (Beta)
+lo("https://pastebin.com/raw/8yiBXU80")
+end
+
+if game.PlaceId==4058282580 then --Boxing Simulator
+lo("https://pastebin.com/raw/0DRktqST")
+end
+
+if game.PlaceId==4519672226 then --Egg Clicker
+lo("https://pastebin.com/raw/zhFPQfsX")
+end
+
+if game.PlaceId==5546188609 then --Scythe Simulator
+lo("https://pastebin.com/raw/BGJHGUDQ")
+end
+
+if game.PlaceId==3452652137 then --Burger Simulator
+lo("https://pastebin.com/raw/kG8MrgzV")
+end
+
+if game.PlaceId==2756861770 then --Blob Simulator 2
+lo("https://pastebin.com/raw/yLcThnH6")
+end
+
+if game.PlaceId==3069857462 then --Vacuum Simulator!
+lo("https://pastebin.com/raw/pZk0K3vV")
+end
+
+if game.PlaceId==2619187362 then --Super Power Fighting Simulator
+lo("https://pastebin.com/raw/fk6K6DvC")
+end
+
+if game.PlaceId==5414779423 then --Science Simulator!
+lo("https://pastebin.com/raw/JczVKQ0U")
+end
+
+if game.PlaceId==4865990095 then --Power Simulator 2 [BETA]
+lo("https://pastebin.com/raw/er8nrKvA")
+end
+
+if nouni==false then --Universal
+lo("https://raw.githubusercontent.com/MaxGatHub/Hub/main/Universal")
+end
