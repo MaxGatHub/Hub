@@ -213,20 +213,20 @@ _G.CircleThickness = 0 -- The thickness of the circle.
 
 end)
 
-g:Slider("FOV Circle Size",0,1080, function(value)
+g:Slider("FOV Circle Size",0,1080,30, function(value)
     
 _G.CircleRadius = value -- The radius of the circle / FOV.
 
 end)
 
-g:Slider("FOV Circle Transparency",0,1, function(value)
+g:Slider("FOV Circle Transparency",0,1,30, function(value)
     
 _G.CircleTransparency = value -- Transparency of the circle.
 
 end)
 
 
-g:Slider("FOV Circle Thickness",0, 20, function(value)
+g:Slider("FOV Circle Thickness",0, 20,30, function(value)
     
 _G.CircleThickness = value -- The thickness of the circle.
 
@@ -255,6 +255,13 @@ infjumpenabled = value
 end)
 
 --Visual
+e:Slider("FOV",0,120,30, function(Value)
+    
+local amount = fovamount
+
+game:GetService'Workspace'.Camera.FieldOfView = Value
+
+end)
 
 e:Button("FPS Booster", function(value)
 local removedecals = false
@@ -446,7 +453,7 @@ end)
 
 --HitBox
 
-f:Slider("Size",0,120, function(Value)
+f:Slider("Size",0,120,30, function(Value)
 _G.Type = 3 -- 1 means all players; 2 means NPCs, 3 Means both.
 _G.Size = Value
 
