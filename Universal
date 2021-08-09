@@ -255,15 +255,251 @@ infjumpenabled = value
 end)
 
 --Visual
-e:Slider("FOV",0,120,30, function(Value)
-    
-local amount = fovamount
 
-game:GetService'Workspace'.Camera.FieldOfView = Value
+e:Button("HD Graphics 1", function()
+    local Services = {}
+            Services.RunService = game:GetService("RunService")
 
+            -- [ Custom Functions ] --
+            local IsExploit = not Services.RunService:IsStudio()
+
+            local CustomFunctions = {}
+            CustomFunctions.SetHidden = sethiddenproperty or set_hidden_property or set_hidden_prop
+
+            -- [ GraphicX ] --
+            local GraphicX = {}
+
+            -- Create --
+            function GraphicX.new(Class, Properties)
+                -- Creates the Instance --
+                local NewInstance = Instance.new(Class)
+
+                -- Sets the Properties --
+                for i, v in pairs(Properties) do
+                    if NewInstance[i] ~= nil and i ~= "Parent" then
+                        NewInstance[i] = v
+                    end
+                end
+
+                -- Sets Parent --
+                if Properties.Parent then
+                    NewInstance.Parent = Properties.Parent
+                end
+
+                return NewInstance
+            end
+
+            function GraphicX.SetProperty(Object, Properties)
+                -- Sets the Properties --
+                for i, v in pairs(Properties) do
+                    if Object[i] ~= nil and i ~= "Parent" then
+                        Object[i] = v
+                    end
+                end
+
+                -- Sets Parent --
+                if Properties.Parent then
+                    Object.Parent = Properties.Parent
+                end
+            end
+
+            -- [ Instances ] --
+            local Lighting = game:GetService("Lighting")
+            local Terrain = workspace.Terrain
+
+            local LightingSaves = GraphicX.new("Folder", {Name = "LightingSaves", Parent = nil})
+
+            -- // Main \\ --
+            function GraphicX.Enhance(Settings)
+                local GraphicSettings =
+                    Settings or
+                    {
+                        FogEnabled = true,
+                        WaterEnabled = true
+                    }
+
+                -- [ Clears Lighting ] --
+                for i, v in ipairs(Lighting:GetChildren()) do
+                    if v:IsA("PostEffect") and not string.find(v.Name, "GraphicX") then
+                        v.Parent = LightingSaves
+                    end
+                end
+
+                -- [ Sets Properties ] --
+
+                -- Lighting --
+                if GraphicSettings.FogEnabled then
+                    GraphicX.SetProperty(
+                        Lighting,
+                        {
+                            FogEnd = 500,
+                            FogStart = 25
+                        }
+                    )
+                end
+
+                if IsExploit then
+                    CustomFunctions.SetHidden(Lighting, "Technology", Enum.Technology.Future)
+                    settings().Rendering.QualityLevel = 21
+                end
+
+                -- Terrain --
+                if GraphicSettings.WaterEnabled then
+                    GraphicX.SetProperty(
+                        Terrain,
+                        {
+                            WaterColor = Color3.fromRGB(131, 165, 164),
+                            WaterReflectance = 0.05,
+                            WaterTransparency = 1,
+                            WaterWaveSize = 0.05,
+                            WaterWaveSpeed = 25
+                        }
+                    )
+                end
+
+                -- [ Creates Effects ] --
+                GraphicX.LightingEffects = {
+                    GraphicX.new(
+                        "BloomEffect",
+                        {
+                            Name = "GraphicXBloom",
+                            Parent = Lighting,
+                            Intensity = 0.75,
+                            Size = 15,
+                            Threshold = 0.95
+                        }
+                    ),
+                    GraphicX.new(
+                        "BlurEffect",
+                        {
+                            Name = "GraphicXBlur",
+                            Parent = Lighting,
+                            Size = 5
+                        }
+                    ),
+                    GraphicX.new(
+                        "DepthOfFieldEffect",
+                        {
+                            Name = "GraphicXDepth",
+                            Parent = Lighting,
+                            FarIntensity = 0.15,
+                            FocusDistance = 0.05,
+                            InFocusRadius = 20,
+                            NearIntensity = 0.75
+                        }
+                    ),
+                    GraphicX.new(
+                        "SunRaysEffect",
+                        {
+                            Name = "GraphicXRays",
+                            Parent = Lighting,
+                            Intensity = 0.25,
+                            Spread = 0.5
+                        }
+                    )
+                }
+            end
+
+            GraphicX.Enhance(
+                {
+                    FogEnabled = true,
+                    WaterEnabled = true
+                }
+            )
+
+            return GraphicX
 end)
 
-e:Button("FPS Booster", function(value)
+e:Button("HD Graphics 2", function()
+-- Roblox Graphics Enhancher
+            sethiddenproperty(game:GetService("Workspace").Terrain, "Decoration", true)
+            sethiddenproperty(game:GetService("Lighting"), "Technology", "Future")
+            local light = game.Lighting
+            for i, v in pairs(light:GetChildren()) do
+                v:Destroy()
+            end
+
+            local ter = workspace.Terrain
+            local color = Instance.new("ColorCorrectionEffect")
+            local bloom = Instance.new("BloomEffect")
+            local sun = Instance.new("SunRaysEffect")
+            local blur = Instance.new("BlurEffect")
+
+            color.Parent = light
+            bloom.Parent = light
+            sun.Parent = light
+            blur.Parent = light
+
+            -- enable or disable shit
+
+            local config = {
+                Terrain = true,
+                ColorCorrection = true,
+                Sun = true,
+                Lighting = true,
+                BloomEffect = true
+            }
+
+            -- settings {
+
+            color.Enabled = false
+            color.Contrast = 0.15
+            color.Brightness = 0.1
+            color.Saturation = 0.25
+            color.TintColor = Color3.fromRGB(255, 222, 211)
+
+            bloom.Enabled = false
+            bloom.Intensity = 0.1
+
+            sun.Enabled = false
+            sun.Intensity = 0.2
+            sun.Spread = 1
+
+            bloom.Enabled = false
+            bloom.Intensity = 0.05
+            bloom.Size = 32
+            bloom.Threshold = 1
+
+            blur.Enabled = false
+            blur.Size = 6
+
+            -- settings }
+
+            if config.ColorCorrection then
+                color.Enabled = true
+            end
+
+            if config.Sun then
+                sun.Enabled = true
+            end
+
+            if config.Terrain then
+                -- settings {
+                ter.WaterColor = Color3.fromRGB(10, 10, 24)
+                ter.WaterWaveSize = 0.1
+                ter.WaterWaveSpeed = 22
+                ter.WaterTransparency = 0.9
+                ter.WaterReflectance = 0.05
+            -- settings }
+            end
+
+            if config.Lighting then
+                -- settings {
+                light.Ambient = Color3.fromRGB(0, 0, 0)
+                light.Brightness = 4
+                light.ColorShift_Bottom = Color3.fromRGB(0, 0, 0)
+                light.ColorShift_Top = Color3.fromRGB(0, 0, 0)
+                light.ExposureCompensation = 0
+                light.FogColor = Color3.fromRGB(132, 132, 132)
+                light.GlobalShadows = true
+                light.OutdoorAmbient = Color3.fromRGB(112, 117, 128)
+                light.Outlines = false
+            -- settings }
+            end
+end)
+
+
+e:Button("FPS Booster", function()
 local removedecals = false
 local g = game
 local w = g.Workspace
@@ -301,6 +537,14 @@ for i, e in pairs(l:GetChildren()) do
         e.Enabled = false
     end
 end
+end)
+
+e:Slider("FOV",0,120,30, function(Value)
+    
+local amount = fovamount
+
+game:GetService'Workspace'.Camera.FieldOfView = Value
+
 end)
 
 
