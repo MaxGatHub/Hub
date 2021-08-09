@@ -234,6 +234,18 @@ end)
 
 --player
 
+c:Slider("WalkSpeed",0,250,30, function(Value)
+	game:GetService("Players").LocalPlayer.Character.Humanoid.WalkSpeed = Value
+end)
+
+c:Slider("Jump Power",0,250,30, function(Value)
+	game:GetService("Players").LocalPlayer.Character.Humanoid.JumpPower = Value
+end)
+
+c:Slider("Gravity",0,500,30, function(Value)
+    workspace.Gravity = Value
+end)
+
 c:Toggle("Noclip", function(Value)
     noclip = Value
 end)
