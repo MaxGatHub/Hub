@@ -4,6 +4,10 @@ loadstring(game:HttpGet(l,true))()
 nouni=true
 end
 
+if game.PlaceId==6802175182 then --Tapping Zones
+lo("https://pastebin.com/raw/Zh9mNzBg")
+end
+
 if game.PlaceId==7081641016 then --Bank Robbery Simulator
 lo("https://pastebin.com/raw/mF2RvMNB")
 end
